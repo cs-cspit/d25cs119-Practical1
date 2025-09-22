@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <title>SignUP</title>
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #a59dff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1d006d;
+            color: white;
+            padding: 20px;
+            border-radius: 40px;
+            margin: 10px;
+
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            gap: 15px;
+            float: right;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+
+        .nav-links a:hover {
+            background-color: #4c00b3;
+            border-radius: 20px;
+            color: white;
+        }
+
+
+        a {
+            color: white;
+        }
+
+        .footer {
+            background-color: #1d006d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .logo {
+            float: left;
+            border-radius: 30px;
+            bottom: 0px;
+            border-color: white;
+            border-width: 10px;
+            padding: 5px 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1d006d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #4c00b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo"><img src="images/logo.jpg" alt="Logo" width="60px" height="60px"></div>
+            <div class="nav-links">
+                <a href="Contactus.html">Contact us</a>
+                <a href="Aboutus.html">About us</a>
+                <a href="Fees.html">Fees</a>
+                <a href="Attendence.html">Attendence</a>
+                <a href="Courses.html">Courses available</a>
+                <a href="Result.html">Result</a>
+                <a href="Profile.html">Student Profile</a>
+                <a href="Signin.html">Sign in</a>
+                <a href="Signup.html">Sign Up</a>
+                <a href="Home.html">Home</a>
+            </div>
+
+        </nav>
+    </header>
+    <div class="footer">
+        <p>CopyRight 2025 All rights reserved</p>
+    </div>
+    <form action="Home.html" method="post">
+        <h2>Sign Up</h2>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>
